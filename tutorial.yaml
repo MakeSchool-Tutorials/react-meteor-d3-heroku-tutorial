@@ -1,0 +1,4 @@
+title: "Going React"
+cover: cover.png
+teaser_text: |
+    This tutorial will show you how to implement a simple web application using the Meteor, the charting library D3 and React!
