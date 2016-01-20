@@ -45,8 +45,13 @@ Now the problem is that we are calling the **App** component here and want to re
 
 > [action]
 > Create a file called app.jsx inside the client folder.
-> 
+
+Inside of the component, we will add some React methods. React.createClass() is where you create your components. The only mandatory function every component must have is the render function, the place you will actually render something into the DOM. 
+
+> [action]
 > Looking at the [React documentation](https://facebook.github.io/react/docs/top-level-api.html#react.createclass), you will see that you need to declare the object App and then use the **createClass** function. Within it, we will use the render function to write our JSX - which is essentially just HTML that can support other React components. More to this later.
+> 
+> Also add a function inside the return statement of the getMeteorData function, which will get all content back form the database and store it in a key called hours (key - value).
 > 
 > Don't forget to add a header to your page, write something like "Hours Spent Coding". 
 >
@@ -55,7 +60,15 @@ Now the problem is that we are calling the **App** component here and want to re
 >    App = React.createClass({
 >      // Add the ReactMeteorData mixin - we need to connect our data to our view
 >      mixins: [ReactMeteorData],
->       
+> 
+>      // Get data from the database and store it in the hours variable 
+>      getMeteorData: function() {
+>        // Get all data from the Hours collection
+>        return {
+>          // Use the Mongo Collection find method to get all data
+>        }
+>      }, 
+> 
 >      // Use React's render function and write some JSX (which uses regular HTML) 
 >      // to support our 2 column structure and a div for each component we will have
 >      render: function() {
@@ -73,7 +86,7 @@ Now that we have our App component set up, check that it renders without problem
 The form will be a new React component, so let's add it by creating a new file called hourForm.jsx and add some content to it. 
 
 > [action]
-> Add the file and create a new React component called **HourForm** and add a render function to it. Inside the render function, return the JSX again. Remember JSX is just HTML!
+> Add the file and create a new React component called **HourForm** and add a render function to it. Inside the render function, return the JSX again. Remember JSX is just HTML! One point to note: Use ref attributes for the input fields as you will get the DOM nodes of the fields through the ref attribute.
 
 <!-- break -->
 
