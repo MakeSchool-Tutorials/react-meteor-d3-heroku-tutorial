@@ -29,3 +29,7 @@ One thing you need to know for using CSS classes with React is that instead of u
 
 #Font Awesome
 Once you have finished styling your components, you can also add icons to your page. We've added one to the title for fanciness but you can use the [Font Awesome library](https://fortawesome.github.io/Font-Awesome/icons/) anywhere you see fit. They are open source vector icons and have a huge set available. Check out the [documentation](https://fortawesome.github.io/Font-Awesome/examples/) on how they are used. 
+
+Try to achieve a style similar to the image below:
+
+![Form with styling](./1-bootstrap.png "Form with styling")
