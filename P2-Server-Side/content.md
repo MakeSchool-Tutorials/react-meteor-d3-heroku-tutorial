@@ -4,7 +4,7 @@ slug: meteor-server
 ---     
 
 #Server-Side
-Let’s begin defining the only server-side piece of our app (although it is also client-side in order to achieve latency compensation). 
+Let’s begin defining the only server-side piece of our app (although it is also client-side in order to achieve [latency compensation](http://info.meteor.com/blog/optimistic-ui-with-meteor-latency-compensation)). 
 
 > [action]
 > In the top-level directory of your app, create a collections.js file.
@@ -58,4 +58,4 @@ This creates a Meteor Collection which maps to the database. The empty Meteor me
 >      }
 >    });
 
-Now that we have our client side server code written, let's move on to our frontend code.
+Now that we have our server side code written, let's move on to our frontend code.

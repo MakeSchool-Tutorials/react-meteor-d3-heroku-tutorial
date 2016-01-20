@@ -12,14 +12,14 @@ Setting up Meteor is fairly straightforward.
 >
 > `curl https://install.meteor.com/ | sh`
 > 
-> Press enter and watch it installing.
+> Press enter and watch it install.
 
 <!-- break boxes -->
 
 > [info]
 > If you are on another OS, go to [https://www.meteor.com/install]() and follow their instructions.
 
-Let's setup a new project. Meteor tells us how to do this after we've installed it, so let's follow their instructions.
+Let's set up a new project. Meteor tells us how to do this after we've installed it, so let's follow their instructions.
 
 > [action]
 > Create a new project, navigate to it and use the *meteor* command to start the server.
@@ -47,10 +47,10 @@ It should say:
 
 You can now go to [http://localhost:3000/]() to see your brandnew web application running. Every time you make a change, Meteor will reload the page automatically! How neat is that?
 
-Now, that we have our new project, navigate to it in Finder. You will note that three files were automatically generated. Get rid of them. Time for adding packages.
+Now, that we have our new project, navigate to it in Finder. You will note that three files were automatically generated. Get rid of them. We are going to make use of some third party libraries for certain functionality, so let's add them now.
 
 #Setting up the environment
-Normally we would go and download the library and add it to our project manually. We don't need to do this with Meteor as we can add the libraries using Meteor directly in the command line.
+For many projects, we would have to download the libraries and add it to our project manually. We don't need to do this with Meteor though as we can add the libraries using Meteors package manager directly in the command line.
 
 > [action]
 > Add the libraries using the following command:
@@ -67,4 +67,4 @@ Normally we would go and download the library and add it to our project manually
 > 
 > We will use Twitter Bootstrap and the FontAwesome library for styling purposes.
 
-The first is the official react package bundled by the Meteor Development Group. The second is the official D3.js package for Meteor. We are doing some date manipulation, so MomentJS is a good choice. Fourth and fifth are Bootstrap and FontAwesome, just for styling purposes.
+The first is the official React package bundled by the Meteor Development Group. The second is the official D3.js package for Meteor. We are doing some date manipulation, so MomentJS is a good choice. Fourth and fifth are Bootstrap and FontAwesome, just for styling purposes.
