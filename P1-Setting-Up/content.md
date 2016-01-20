@@ -35,8 +35,19 @@ Let's setup a new project. Meteor tells us how to do this after we've installed 
 > 
 >    `$ meteor`
 
+It should say: 
 
-Now, that we have our new project, navigate to it in the terminal. You will note that three files were automatically generated. Get rid of them. Time for adding packages.
+```
+=> Started proxy.
+=> Started MongoDB.
+=> Started your app.
+
+=> App running at: http://localhost:3000/
+```
+
+You can now go to [http://localhost:3000/]() to see your brandnew web application running. Every time you make a change, Meteor will reload the page automatically! How neat is that?
+
+Now, that we have our new project, navigate to it in Finder. You will note that three files were automatically generated. Get rid of them. Time for adding packages.
 
 #Setting up the environment
 Normally we would go and download the library and add it to our project manually. We don't need to do this with Meteor as we can add the libraries using Meteor directly in the command line.
@@ -48,6 +59,7 @@ Normally we would go and download the library and add it to our project manually
 > 
 > Now do the same for the other libraries we need:
 > 
+> * **check** (asserts data integrity)
 > * **d3js:d3** (our charting library)
 > * **momentjs:moment** (a JS library to work with dates)
 > * **twbs:bootstrap**
