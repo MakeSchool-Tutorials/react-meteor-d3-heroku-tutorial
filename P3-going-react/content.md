@@ -66,6 +66,7 @@ Inside of the component, we will add some React methods. React.createClass() is 
 >        // Get all data from the Hours collection
 >        return {
 >          // Use the Mongo Collection find method to get all data
+> 			 CODE HERE	
 >        }
 >      }, 
 > 
@@ -74,7 +75,7 @@ Inside of the component, we will add some React methods. React.createClass() is 
 >      render: function() {
 >        // Return the JSX inside of brackets  
 >        return (
->          // Put your HTML here
+>          // CODE HERE - Put your HTML here
 >        );
 >      }
 >    });
@@ -101,7 +102,7 @@ The form will be a new React component, so let's add it by creating a new file c
 >        // Return your JSX within brackets - the HTML should display a simple form with 
 >        // 2 input elements and a submit button
 >        return (
->    
+>    	      CODE HERE 	 	
 >        );
 >      }
 >    });
@@ -127,18 +128,18 @@ Now that you have your form up and running, let's connect the submit button to a
 >      
 >      handleSubmit: function(e) {
 >        // Use the preventDefault function on the passed in event
->        
+>        CODE HERE
 >        // Access the input fields using React.findDOMNode and store them in a variable
->    
+>        CODE HERE
 >        // Use Meteor's call function 
 >        // Pass the insertHour function as first parameter
 >        // Pass the hours value as the second parameter
 >        // Pass the date value as the third parameter - Use Moments toDate function to pass it as an ISO date
 >        // Pass an anonymous callback as the fourth parameter that alerts if something goes wrong
->    
+>        CODE HERE
 >        
 >        // Reset the input values to empty strings
->    
+>        CODE HERE
 >      },
 >     
 >      render: function() {    
@@ -149,7 +150,7 @@ Now that you have your form up and running, let's connect the submit button to a
 >    });
 > ```
 
-You need to connect the form to the function on submit and we do this by using the following event handler on the form:
+You need to connect the form to the function on submit and we do this by using the following event handler on the form tag:
 
 `<form onSubmit={this.handleSubmit}>`
 
