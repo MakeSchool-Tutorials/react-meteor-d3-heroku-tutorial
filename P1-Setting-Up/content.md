@@ -22,7 +22,7 @@ Setting up Meteor is fairly straightforward.
 Let's set up a new project. Meteor tells us how to do this after we've installed it, so let's follow their instructions.
 
 > [action]
-> Create a new project, navigate to it and use the *meteor* command to start the server.
+> Create a repo for your assignment using [this link](MakeSchool-17/react-meteor-d3-heroku). Clone that repo to your computer. Create a new project in that repo, navigate to it and use the *meteor* command to start the server.
 
 <!-- break -->
 
