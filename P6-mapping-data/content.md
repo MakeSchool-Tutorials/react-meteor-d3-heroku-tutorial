@@ -51,6 +51,6 @@ Now we should add our chart to our App component and fill in the function that w
 >    }
 > ```
 > 
-> Don't forget to add the HourChart into the righthand column and pass the props as data (data={this.mapData()}). Give the chart a height and width props using pixel values (height="400", width="500").
+> Don't forget to add the HourChart into the righthand column and pass the props as data (data={this.mapData()}).
 
 Now that we have all our components on the App component, let's create the chart component using D3!
