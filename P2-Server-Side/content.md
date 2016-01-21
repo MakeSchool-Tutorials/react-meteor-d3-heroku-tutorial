@@ -40,21 +40,21 @@ This creates a Meteor Collection which maps to the database. The empty Meteor me
 >      //Function insertHour takes 2 parameters, the number of hours and the date
 >      insertHour: function() {
 >        //Parse the first parameter to make sure it is an int
->        
+>        CODE HERE
 >        //Use the check function to ensure that the first parameter is a number
->    
+>        CODE HERE
 >        //Use the check function to ensure that the second parameter is a date
->        
+>        CODE HERE
 >        //Return the insert function (add a key value pair consisting of the first and second parameter into the Hours collection)
->    
+>        CODE HERE
 >      },
 >     
 >      // Function removeHour takes 1 parameter, the id to remove an entry
 >      removeHour: function() {    
 >        //Use the check function to ensure the parameter is a string
->    
+>        CODE HERE
 >        //Return the remove function (remove an entry from the Hours collection by id)
->        
+>        CODE HERE
 >      }
 >    });
 
