@@ -101,3 +101,5 @@ Let's set a few more environments config options, we're almost there:
 > `git push heroku master`
 
 Wait until it pushed and deployed your application (this is going to take a while!), then go to your Heroku app URL (you should have seen it when you created your Heroku app!) and check out your brandnew live web application. If you can't remember your URL, go to your Heroku dashboard, you will find under the *Settings* tab. Well done on deploying your first web application!
+
+If you have any feedback or questions about this project or just want to see how we have coded this application, check out the [Github repo](https://github.com/MakeSchool-Tutorials/react-meteor-d3-heroku-project).

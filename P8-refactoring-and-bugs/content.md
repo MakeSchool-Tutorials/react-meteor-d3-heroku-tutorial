@@ -36,6 +36,9 @@ React is all about small components that can be reused. For that we should make 
 > 
 > Have a look at the other components too. The smaller, the better and more reusable ultimately. 
 
+#Challenge
+The current chart implementation is quite simple and could be much more sophisticated! Check out the D3 documentation and see if you can implement dynamic dates on the x-axis that could be clicked through to see specific dates rather than generic week days.
+
 #Bugs
 Check your code, play with your web app. Do you notice something odd when you add and remove hours? Why is that? What is happening?
 
