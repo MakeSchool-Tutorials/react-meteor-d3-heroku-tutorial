@@ -7,7 +7,7 @@ slug: going-react
 Now that we have our backend up and running, let's work on the views that will display our content. The first view we create is the HTML that will bring our components on the page.
 
 > [action]
-> Create a folder called **client** and add an index.html file into the client directory. Try adding the usual boilerplate HTML and check your terminal. 
+> Create a folder called **client** and add an index.html file into the client directory. Try adding the usual boilerplate HTML and check your server in the terminal (where you executed the `meteor` command). 
 
 <!-- break -->
 
