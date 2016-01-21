@@ -40,7 +40,7 @@ Now we should add our chart to our App component and fill in the function that w
 >        ];
 >    
 >        // Loop over the data variable and map the dates from the database to a day of the week
->        
+>        CODE HERE
 >        
 >        // Return the data variable
 >        return data;

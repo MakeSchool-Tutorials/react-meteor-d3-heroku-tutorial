@@ -30,25 +30,25 @@ It’s worthy to note that our App component might take a while to fetch all the
 >      // Create the SVG when component is mounted and call renderChart
 >      componentDidMount: function() {   
 >        // Get the div from this component using findDOMNode
->        var el,
+>        var el = CODE HERE,
 >        // Create a canvas (svg) using D3s select method and 
 >        // this.props.weight & this.props.height as attributes
->            svg;
+>            svg = CODE HERE;
 >        
->        // Call this.renderChart and pass props (not implemented yet)   
+>        // Call this.renderChart and pass props (renderChart is not implemented yet!)   
 >        renderChart(this.props);
 >      },
 >    
 >      // Call the renderChart function with the newly passed props
 >      componentWillUpdate: function(newProps) {      
->        
+>        CODE HERE
 >      },
 >    
 >      // Set default props here 
 >      getDefaultProps: function() {
 >        // Set a default for width & height
 >        return {
->          ...
+>          CODE HERE
 >        }
 >      },
 >    
@@ -60,7 +60,7 @@ It’s worthy to note that our App component might take a while to fetch all the
 >      // Render a simple div with class "chart"
 >      render: function() {
 >        return (
->                  
+>           CODE HERE - HTML/JSX       
 >        );
 >      }
 >    
@@ -83,13 +83,13 @@ Working with D3 can look scary at first as you have to come up with a lot of var
 >    // Render the D3 chart using the passed in props
 >    renderChart: function(props) {
 >      // Store this.props.data in a variable
->      var data,
+>      var data = CODE HERE,
 >      // Use _ (Underscore) max function to return the maximum value from q
->          max,
+>          max = CODE HERE,
 >      // Use D3s select to get the svg
->          svg,
+>          svg = CODE HERE,
 >      // Select all 'rect' from svg - use selectAll 
->          bars,
+>          bars = CODE HERE,
 >      // Construct a new linear scale https://github.com/mbostock/d3/wiki/Quantitative-Scales#linear for the y axis
 >          yScale = d3.scale.linear()
 >                     .domain([0, max])
@@ -274,7 +274,7 @@ Ok, we only have one function left, the setupLabels function and we're all set!
 >    setupLabels: function(svg, xScale) {
 >      var self = this,
 >      // Select all label classes from the svg and call data on it passing this.props.data
->          label;
+>          label = CODE HERE;
 >    
 >      // Enter the label and append some text. Use attr to give it a label class.
 >      label.enter()
@@ -284,7 +284,7 @@ Ok, we only have one function left, the setupLabels function and we're all set!
 >      // Use D3s text method to add the text to the label
 >      label.text(function(d, i) { 
 >           // Return the label of the passed in d           
->              
+>             CODE HERE   
 >           })
 >           .attr(TODO)
 >           .attr('x', function(d, i) {

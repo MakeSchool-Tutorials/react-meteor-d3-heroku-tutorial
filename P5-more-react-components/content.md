@@ -43,14 +43,14 @@ We've already made a component, so go ahead and add another for our list.
 > 
 > ```
 >    //Give your component a name called HourList - use React.createClass to create the object
->    
+>    CODE HERE
 >      
 >      // render the item component in a separate function
 >      renderHours: function() {   
 >        // Iterate over this.props.data using the map function. Return the loop
->    
+>        CODE HERE
 >          // Return the HourItem component, pass hour and key to it. 
->    
+>          CODE HERE (inside the map function)
 >    
 >      },
 >    
@@ -58,7 +58,7 @@ We've already made a component, so go ahead and add another for our list.
 >      render: function() {    
 >        // return the JSX using ()
 >        return (
->          
+>          CODE HERE - HTML!
 >        );
 >      }
 >    
@@ -73,24 +73,24 @@ We've already made a component, so go ahead and add another for our list.
 >      // Write an event handler for the onClick event, called handleClick.
 >      handleClick: function() {
 >        // Store id in a variable. Access it from this.props.
->        var id;
+>        var id = CODE HERE;
 >        
 >        // Use the Meteor method "call". Pass 'removeHour' as the first parameter, id as the second, 
 >        // a function alerting any errors as third parameter
->    
+>        CODE HERE
 >      },
 >     
 >      // Obligatory render method
 >      render: function() {
 >        // Get the date from this.props.hour.date and format it to 'DD/MM/YYYY' using Moment. Store it in a variable.
->        var date,
+>        var date = CODE HERE,
 >        // Determine if the end of the sentence should say hour or hours based on this.props.hour.hours. Store it in a variable.
->            sentEnd;
+>            sentEnd = CODE HERE;
 >        
 >        // Return a list item with an onClick handler. Let the item say "On DD/MM/YYYY coded ? hour/hours."
 >        // Variables have to be accessed within curly brackets => {date}
 >        return (
->          
+>          CODE HERE - HTML/JSX
 >        );
 >      }
 >    });

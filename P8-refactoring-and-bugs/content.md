@@ -9,7 +9,7 @@ Bonus content! This is just extra content that will improve your code and make y
 React is all about small components that can be reused. For that we should make the components that we have created so far, smaller and into individual components. 
 
 > [action]
-> Go over the each component again and move the divs that contain content into their individual components. For example the title could be a container:
+> Go over each component again and move the divs that contain content into their individual React components. For example the title could be a container:
 > 
 > ```
 >    <div className="page-header text-center">
@@ -19,7 +19,7 @@ React is all about small components that can be reused. For that we should make 
 >    </div>
 > ```
 > 
-> And each row in a column should be in a component as well:
+> And each row in a column should be a component as well:
 > 
 > ```
 >    <div className="col-md-4">
