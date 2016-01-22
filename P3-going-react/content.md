@@ -135,7 +135,7 @@ Now that you have your form up and running, let's connect the submit button to a
 >        // Pass the insertHour function as first parameter
 >        // Pass the hours value as the second parameter
 >        // Pass the date value as the third parameter - Use Moments toDate function to pass it as an ISO date
->        // Pass an anonymous callback as the fourth parameter that alerts if something goes wrong
+>        // Pass an anonymous callback as the fourth parameter that only alerts if something goes wrong (the callback has error (if there's one) and the returned id as passed in parameters (if the call succeeded))
 >        CODE HERE
 >        
 >        // Reset the input values to empty strings
