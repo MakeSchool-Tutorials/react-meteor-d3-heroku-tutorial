@@ -129,7 +129,7 @@ Now that you have your form up and running, let's connect the submit button to a
 >      handleSubmit: function(e) {
 >        // Use the preventDefault function on the passed in event
 >        CODE HERE
->        // Access the input fields using React.findDOMNode and store them in a variable
+>        // Access the input fields using ReactDOM.findDOMNode and store them in a variable
 >        CODE HERE
 >        // Use Meteor's call function 
 >        // Pass the insertHour function as first parameter
