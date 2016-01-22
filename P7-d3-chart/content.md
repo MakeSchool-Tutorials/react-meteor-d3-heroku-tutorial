@@ -138,7 +138,7 @@ We repeat this three times for each of the elements we want to render (the bars,
 >            CODE HERE
 >          })
 >          .attr('y', function(d, i) {
->            // Return this.props.height minus the yScale for this
+>            // Return self.props.height minus the yScale
 >            CODE HERE
 >          })
 >          .attr('width', xScale.rangeBand())
