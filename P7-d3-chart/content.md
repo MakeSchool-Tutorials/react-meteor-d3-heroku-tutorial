@@ -88,7 +88,7 @@ Working with D3 can look scary at first as you have to come up with a lot of var
 >          max = CODE HERE,
 >      // Use D3s select to get the svg
 >          svg = CODE HERE,
->      // Select all 'rect' from svg - use selectAll 
+>      // Select all 'rect' from svg - use selectAll - call data on bars and pass your data 
 >          bars = CODE HERE,
 >      // Construct a new linear scale https://github.com/mbostock/d3/wiki/Quantitative-Scales#linear for the y axis
 >          yScale = d3.scale.linear()
