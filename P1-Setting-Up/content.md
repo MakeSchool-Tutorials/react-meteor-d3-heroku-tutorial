@@ -27,11 +27,9 @@ Let's set up a new project. Meteor tells us how to do this after we've installed
 <!-- break -->
 
 > [solution]
-> Don't type the $! This just indicates a command that needs to be exceuted in the terminal.
+> Don't type the $! This just indicates a command that needs to be exceuted in the terminal. The first command will create a Meteor application in the current directory. The second command will start up the new Meteor server.
 > 
->    `$ meteor create ~/coding-time`
-> 
->    `$ cd ~/coding-time`
+>    `$ meteor create .`
 > 
 >    `$ meteor`
 
