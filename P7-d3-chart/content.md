@@ -84,7 +84,7 @@ Working with D3 can look scary at first as you have to come up with a lot of var
 >    renderChart: function(props) {
 >      // Store this.props.data in a variable
 >      var data = CODE HERE,
->      // Use _ (Underscore) max function to return the maximum value from q
+>      // Use _ max & _ pluck function to return the maximum value from q
 >          max = CODE HERE,
 >      // Use D3s select to get the svg
 >          svg = CODE HERE,
