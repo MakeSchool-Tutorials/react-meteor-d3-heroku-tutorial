@@ -45,7 +45,7 @@ This creates a Meteor Collection which maps to the database. The empty Meteor me
 >        CODE HERE
 >        //Use the check function to ensure that the second parameter is a date
 >        CODE HERE
->        //Return the insert function (add a key value pair consisting of the first and second parameter into the Hours collection)
+>        //Return the insert function (add a key value pair (JSON) consisting of the first and second parameter into the Hours collection)
 >        CODE HERE
 >      },
 >     

@@ -65,7 +65,7 @@ Inside of the component, we will add some React methods. React.createClass() is 
 >      getMeteorData: function() {
 >        // Get all data from the Hours collection
 >        return {
->          // Use the Mongo Collection find method to get all data
+>          // Use the Mongo Collection find/fetch method to get all data and store it in a key-value store (JSON)
 > 			 CODE HERE	
 >        }
 >      }, 
