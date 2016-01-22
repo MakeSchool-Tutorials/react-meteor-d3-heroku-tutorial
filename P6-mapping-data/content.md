@@ -39,7 +39,7 @@ Now we should add our chart to our App component and fill in the function that w
 >          { q: 0, label: 'Sun' }
 >        ];
 >    
->        // Loop over the data variable and map the dates from the database to a day of the week
+>        // Loop over the data variable and map the dates from the database to a day of the week  (use moment's weekday function)
 >        CODE HERE
 >        
 >        // Return the data variable
