@@ -32,7 +32,7 @@ It’s worthy to note that our App component might take a while to fetch all the
 >        // Get the div from this component using findDOMNode
 >        var el = CODE HERE,
 >        // Create a canvas (svg) using D3s select method and 
->        // this.props.weight & this.props.height as attributes
+>        // this.props.width & this.props.height as attributes
 >            svg = CODE HERE;
 >        
 >        // Call this.renderChart and pass props (renderChart is not implemented yet!)   
