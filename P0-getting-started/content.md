@@ -12,8 +12,6 @@ At the end of this tutorial, you will have a very simple web app that can do a l
 
 ![Final Product](./1-final-product.png "Final Product") 
 
-Here is also a [live preview](https://still-temple-12247.herokuapp.com/) of the app!
-
 Sure it looks very simple but it uses a lot of advanced concepts under the hood to get there! More on JavaScript concepts can be found in this series of [online books](https://github.com/getify/You-Dont-Know-JS).
 
 #What is Meteor?
